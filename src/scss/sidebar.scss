@@ -1,0 +1,23 @@
+.header {
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 0;
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .borders {
+    margin-left: 180px;
+  }
+  .profile {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 210px;
+  }
+}

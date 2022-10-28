@@ -1,0 +1,30 @@
+.btn {
+  width: 270px;
+}
+.input-group {
+  width: 270px;
+  margin-top: 50px;
+  .input-icon {
+    background-color: transparent;
+    border-right: none;
+  }
+  .form-floating {
+    .form-control {
+      border-left: none;
+    }
+  }
+}
+.staff-title {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  .green {
+    color: green;
+    height: 100%;
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  .staff-content {
+    font-size: 10px;
+  }
+}
